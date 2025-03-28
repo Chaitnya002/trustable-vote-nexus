@@ -16,16 +16,16 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 210 100% 35%;
+    --primary: 210 54% 46%; /* #3674B5 */
     --primary-foreground: 210 40% 98%;
 
-    --secondary: 210 40% 96.1%;
+    --secondary: 210 44% 57%; /* #578FCA */
     --secondary-foreground: 222.2 47.4% 11.2%;
 
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 210 40% 96.1%;
+    --accent: 194 77% 87%; /* #D1F8EF */
     --accent-foreground: 222.2 47.4% 11.2%;
 
     --destructive: 0 84.2% 60.2%;
@@ -57,17 +57,17 @@
     --popover: 222.2 84% 4.9%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
+    --primary: 210 54% 46%; /* #3674B5 */
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 217.2 32.6% 17.5%;
+    --secondary: 210 44% 57%; /* #578FCA */
     --secondary-foreground: 210 40% 98%;
 
     --muted: 217.2 32.6% 17.5%;
     --muted-foreground: 215 20.2% 65.1%;
 
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
+    --accent: 194 77% 87%; /* #D1F8EF */
+    --accent-foreground: 222.2 47.4% 11.2%;
 
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 40% 98%;
@@ -104,11 +104,11 @@
   }
   
   .security-badge {
-    @apply inline-flex items-center gap-1 text-xs font-medium px-2 py-1 rounded-full bg-voting-lightGreen text-voting-green;
+    @apply inline-flex items-center gap-1 text-xs font-medium px-2 py-1 rounded-full bg-voting-mint text-voting-blue;
   }
   
   .verification-badge {
-    @apply inline-flex items-center gap-1 text-xs font-medium px-2 py-1 rounded-full bg-voting-lightBlue text-voting-blue;
+    @apply inline-flex items-center gap-1 text-xs font-medium px-2 py-1 rounded-full bg-voting-skyBlue text-voting-blue;
   }
   
   .blockchain-container {
@@ -124,10 +124,10 @@
   }
   
   .verify-button {
-    @apply w-full py-3 px-4 bg-white border border-voting-blue text-voting-blue rounded-lg font-medium hover:bg-voting-lightBlue transition-colors;
+    @apply w-full py-3 px-4 bg-white border border-voting-blue text-voting-blue rounded-lg font-medium hover:bg-voting-mint transition-colors;
   }
   
   .results-button {
-    @apply w-full py-3 px-4 bg-voting-green text-white rounded-lg font-medium hover:bg-opacity-90 transition-colors;
+    @apply w-full py-3 px-4 bg-voting-lightBlue text-white rounded-lg font-medium hover:bg-opacity-90 transition-colors;
   }
 }
