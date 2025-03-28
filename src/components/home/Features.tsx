@@ -56,11 +56,11 @@ const features = [
 
 const Features = () => {
   return (
-    <section className="py-20 px-4">
+    <section className="py-20 px-4 bg-white">
       <div className="container mx-auto">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-3xl font-bold mb-4">Secure Voting Features</h2>
-          <p className="text-muted-foreground">
+          <h2 className="text-3xl font-bold mb-4 text-gray-900">Secure Voting Features</h2>
+          <p className="text-gray-700 font-medium">
             Our blockchain-based voting platform combines cutting-edge security with 
             an intuitive user experience to deliver the most trustworthy digital elections.
           </p>
@@ -70,7 +70,7 @@ const Features = () => {
           {features.map((feature, index) => (
             <div 
               key={index} 
-              className="feature-card"
+              className="feature-card bg-white"
               style={{ 
                 animationDelay: `${index * 100}ms`,
                 animation: 'fade-in 0.5s ease-out forwards',
@@ -80,8 +80,8 @@ const Features = () => {
               <div className="mb-4">
                 {feature.icon}
               </div>
-              <h3 className="text-lg font-medium mb-2">{feature.title}</h3>
-              <p className="text-sm text-muted-foreground">{feature.description}</p>
+              <h3 className="text-lg font-semibold mb-2 text-gray-800">{feature.title}</h3>
+              <p className="text-sm text-gray-700">{feature.description}</p>
             </div>
           ))}
         </div>

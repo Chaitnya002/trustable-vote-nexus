@@ -13,7 +13,7 @@ const SecurityFeatures = () => {
                 <Shield className="h-6 w-6" />
                 Security by Design
               </h2>
-              <p className="mb-6 text-white/80">
+              <p className="mb-6 text-white font-medium">
                 Every aspect of TrustVote is built with security as the foundation,
                 ensuring your vote remains private, secure, and tamper-proof.
               </p>
@@ -22,32 +22,32 @@ const SecurityFeatures = () => {
                   <div className="rounded-full bg-white/20 p-1 mt-0.5">
                     <LockKeyhole className="h-4 w-4" />
                   </div>
-                  <span className="text-sm">End-to-end encryption</span>
+                  <span className="text-sm font-medium">End-to-end encryption</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <div className="rounded-full bg-white/20 p-1 mt-0.5">
                     <Fingerprint className="h-4 w-4" />
                   </div>
-                  <span className="text-sm">Biometric verification</span>
+                  <span className="text-sm font-medium">Biometric verification</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <div className="rounded-full bg-white/20 p-1 mt-0.5">
                     <FileCheck className="h-4 w-4" />
                   </div>
-                  <span className="text-sm">Immutable blockchain record</span>
+                  <span className="text-sm font-medium">Immutable blockchain record</span>
                 </li>
               </ul>
             </div>
             <div className="w-full md:w-2/3 p-8">
-              <h3 className="text-xl font-medium mb-6">Our Security Commitment</h3>
+              <h3 className="text-xl font-bold mb-6 text-gray-900">Our Security Commitment</h3>
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
                   <div className="h-10 w-10 rounded-full bg-voting-lightBlue flex items-center justify-center text-voting-blue">
                     <span className="font-bold">1</span>
                   </div>
                   <div>
-                    <h4 className="font-medium mb-1">Multi-Factor Authentication</h4>
-                    <p className="text-sm text-muted-foreground">
+                    <h4 className="font-bold mb-1 text-gray-800">Multi-Factor Authentication</h4>
+                    <p className="text-sm text-gray-700">
                       We implement rigorous identity verification using multiple factors, including 
                       something you know (password), something you have (device), and something you are (biometrics).
                     </p>
@@ -59,8 +59,8 @@ const SecurityFeatures = () => {
                     <span className="font-bold">2</span>
                   </div>
                   <div>
-                    <h4 className="font-medium mb-1">Distributed Ledger Technology</h4>
-                    <p className="text-sm text-muted-foreground">
+                    <h4 className="font-bold mb-1 text-gray-800">Distributed Ledger Technology</h4>
+                    <p className="text-sm text-gray-700">
                       Your vote is recorded across a distributed network of nodes, making it virtually impossible 
                       to alter any recorded votes without consensus from the entire network.
                     </p>
@@ -72,8 +72,8 @@ const SecurityFeatures = () => {
                     <span className="font-bold">3</span>
                   </div>
                   <div>
-                    <h4 className="font-medium mb-1">Independent Security Audits</h4>
-                    <p className="text-sm text-muted-foreground">
+                    <h4 className="font-bold mb-1 text-gray-800">Independent Security Audits</h4>
+                    <p className="text-sm text-gray-700">
                       Our platform undergoes regular security audits by third-party experts, and all source 
                       code is open for public review and scrutiny.
                     </p>
@@ -85,8 +85,8 @@ const SecurityFeatures = () => {
                     <span className="font-bold">4</span>
                   </div>
                   <div>
-                    <h4 className="font-medium mb-1">Voter Privacy</h4>
-                    <p className="text-sm text-muted-foreground">
+                    <h4 className="font-bold mb-1 text-gray-800">Voter Privacy</h4>
+                    <p className="text-sm text-gray-700">
                       While votes are verified and recorded publicly on the blockchain, sophisticated 
                       cryptographic techniques ensure your individual vote remains private.
                     </p>

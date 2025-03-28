@@ -41,7 +41,7 @@ const HowItWorks = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl font-bold mb-4">How Blockchain Voting Works</h2>
-          <p className="text-white/80">
+          <p className="text-white text-lg font-medium">
             Our secure blockchain voting process combines cutting-edge technology with a simple user experience.
             Here's how your vote goes from your device to the blockchain ledger.
           </p>
@@ -51,24 +51,24 @@ const HowItWorks = () => {
           {steps.map((step, index) => (
             <div 
               key={index} 
-              className="bg-white/10 backdrop-blur-sm p-6 rounded-lg border border-white/20"
+              className="bg-white/15 backdrop-blur-sm p-6 rounded-lg border border-white/30"
               style={{ 
                 animationDelay: `${index * 100}ms`,
                 animation: 'fade-in 0.5s ease-out forwards',
                 opacity: 0 
               }}
             >
-              <div className="bg-voting-blue p-3 rounded-lg inline-flex items-center justify-center mb-4 shadow-lg">
+              <div className="bg-voting-lightBlue p-3 rounded-lg inline-flex items-center justify-center mb-4 shadow-lg">
                 {step.icon}
               </div>
-              <h3 className="text-xl font-medium mb-3">{step.title}</h3>
-              <p className="text-white/80">{step.description}</p>
+              <h3 className="text-xl font-bold mb-3 text-white">{step.title}</h3>
+              <p className="text-white font-medium">{step.description}</p>
             </div>
           ))}
         </div>
         
         <div className="mt-16 max-w-3xl mx-auto text-center">
-          <p className="text-white/80 text-lg">
+          <p className="text-white text-lg font-medium">
             Every step of the process is designed with security and transparency as top priorities,
             ensuring your vote counts exactly as you intended.
           </p>

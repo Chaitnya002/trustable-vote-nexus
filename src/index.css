@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -104,11 +104,11 @@
   }
   
   .security-badge {
-    @apply inline-flex items-center gap-1 text-xs font-medium px-2 py-1 rounded-full bg-voting-mint text-voting-blue;
+    @apply inline-flex items-center gap-1 text-xs font-semibold px-2 py-1 rounded-full bg-voting-mint text-voting-blue;
   }
   
   .verification-badge {
-    @apply inline-flex items-center gap-1 text-xs font-medium px-2 py-1 rounded-full bg-voting-skyBlue text-voting-blue;
+    @apply inline-flex items-center gap-1 text-xs font-semibold px-2 py-1 rounded-full bg-voting-skyBlue text-voting-blue;
   }
   
   .blockchain-container {
@@ -120,14 +120,14 @@
   }
   
   .vote-button {
-    @apply w-full py-3 px-4 bg-voting-blue text-white rounded-lg font-medium hover:bg-opacity-90 transition-colors;
+    @apply w-full py-3 px-4 bg-voting-blue text-white rounded-lg font-semibold hover:bg-opacity-90 transition-colors;
   }
   
   .verify-button {
-    @apply w-full py-3 px-4 bg-white border border-voting-blue text-voting-blue rounded-lg font-medium hover:bg-voting-mint transition-colors;
+    @apply w-full py-3 px-4 bg-white border border-voting-blue text-voting-blue rounded-lg font-semibold hover:bg-voting-mint transition-colors;
   }
   
   .results-button {
-    @apply w-full py-3 px-4 bg-voting-lightBlue text-white rounded-lg font-medium hover:bg-opacity-90 transition-colors;
+    @apply w-full py-3 px-4 bg-voting-lightBlue text-white rounded-lg font-semibold hover:bg-opacity-90 transition-colors;
   }
 }
