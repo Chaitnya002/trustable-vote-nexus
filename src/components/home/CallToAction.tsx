@@ -27,6 +27,11 @@ const CallToAction = () => {
                 View Active Elections
               </Button>
             </Link>
+            <Link to="/about">
+              <Button size="lg" variant="ghost" className="gap-2 text-voting-blue hover:bg-voting-blue/10 font-medium">
+                Learn More
+              </Button>
+            </Link>
           </div>
         </div>
       </div>
